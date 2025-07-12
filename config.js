@@ -10,21 +10,21 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // ===== BOT CORE SETTINGS =====
-    CHATBOT: getConfig("CHATBOT") || "on",
+    CHATBOT: getConfig("CHATBOT") || "off",
     //chatbot on/off
   
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON-MD~",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~FVpgGTZY#FoZTG8_79j9niVJND04TDd9ym2P3ULVHlDE7hy747JE",  // Your bot's session ID (keep it secure)
     
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     
-    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "MEGALODON-MD",  // Bot's display name
+    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "SASUKE-MD",  // Bot's display name
     
-    MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
+    MODE: process.env.MODE || "private",        // Bot mode: public/private/group/inbox
 
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "50948336180",  // Owner's WhatsApp number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "243973244797",  // Owner's WhatsApp number
     
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "ADD YOUR NAME",           // Owner's name
+    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "🕷𝐓𝐌𝐏 𝐒𝐀𝐒𝐔𝐊𝐄🕷",           // Owner's name
     
     DEV: process.env.DEV || "50948336180",                     // Developer's contact number
     
@@ -45,9 +45,9 @@ module.exports = {
    
     
     // ===== MEDIA & AUTOMATION =====
-    AUTO_RECORDING: process.env.AUTO_RECORDING || "false",      // Auto-record voice notes?
-    AUTO_TYPING: process.env.AUTO_TYPING || "false",            // Show typing indicator?
-    MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/roubzi.jpg",  // Bot's "alive" image
+    AUTO_RECORDING: process.env.AUTO_RECORDING || "true",      // Auto-record voice notes?
+    AUTO_TYPING: process.env.AUTO_TYPING || "true",            // Show typing indicator?
+    MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/adc9jv.jpg",  // Bot's "alive" image
 
     // ===== SECURITY & ANTI-FEATURES =====
     ANTI_BOT: process.env.ANTI_BOT || "true",
@@ -63,7 +63,7 @@ module.exports = {
     
      ANTILINK: process.env.ANTILINK || "false",
     
-    ANTI_VV: process.env.ANTI_VV || "false",  
+    ANTI_VV: process.env.ANTI_VV || "true",  
     // Block view-once messages?
     DELETE_LINKS: process.env.DELETE_LINKS || "false",  
     // Auto-delete links?
@@ -72,11 +72,11 @@ module.exports = {
 
     // ===== BOT BEHAVIOR & APPEARANCE =====
    
-    PUBLIC_MODE: process.env.PUBLIC_MODE || "true",     
+    PUBLIC_MODE: process.env.PUBLIC_MODE || "false",     
     // Allow public commands?
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
     // Show bot as always online?
-    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
+    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
     // React to status updates?
     AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
     // VIEW to status updates?
