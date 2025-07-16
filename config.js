@@ -13,18 +13,18 @@ module.exports = {
     CHATBOT: getConfig("CHATBOT") || "off",
     //chatbot on/off
   
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~FVpgGTZY#FoZTG8_79j9niVJND04TDd9ym2P3ULVHlDE7hy747JE",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~8cA33SoT#yY7_3YnRG3IZJrH6gJHukZxD1GfaKcFZimJ7wE6gojQ",  // Your bot's session ID (keep it secure)
     
-    PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
+    PREFIX: getConfig("PREFIX") || "!",  // Command prefix (e.g., "., / ! * - +")
     
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "SASUKE-MD",  // Bot's display name
     
     MODE: process.env.MODE || "private",        // Bot mode: public/private/group/inbox
 
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "243973244797",  // Owner's WhatsApp number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "50937294747",  // Owner's WhatsApp number
     
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "🕷𝐓𝐌𝐏 𝐒𝐀𝐒𝐔𝐊𝐄🕷",           // Owner's name
+    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "🕷𝐂𝐇𝐑𝐈𝐒𝐓𝐈𝐀𝐍 𝐙𝐁🕷",           // Owner's name
     
     DEV: process.env.DEV || "50948336180",                     // Developer's contact number
     
